@@ -1,0 +1,44 @@
+<config>
+	<federate name="DON" mpcPort="20172" federationId="Pitch Remote"/>
+	<federations>
+		<federation 
+			id="Pitch Remote" 
+			name="SEE 2017"
+			description="SEE 2016 HLA Event"
+			rti="Pitch" 		
+			host="10.8.0.193"	
+			port="8989"/>			
+		<federation 
+			id="Pitch Local"  
+			name="SEE 2017"
+			description="SEE 2016 Local Testing"
+			rti="Pitch" 		
+			host="localhost"	
+			port="8989"/>
+		<federation 
+			id="MAK Remote" 
+			name="SEE 2017"
+			description="SEE 2016 HLA Event"
+			rti="MAK" 			
+			host="192.168.15.3"	
+			port="8989"/>			
+		<federation 
+			id="MAK Local" 
+			name="SEE 2017"
+			description="SEE 2016 Local Testing"
+			rti="MAK" 			
+			host="localhost"	
+			port="8989"/>			
+	</federations>https://www.rocketlabusa.com/assets/Uploads/_resampled/FillWyI3NTAiLCI0NTAiXQ/Old-Logo-2.jpg
+	<foms>
+		<fom uri="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2017/FOMs/SISO_SpaceFOM_datatypes.xml"/>
+		<fom uri="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2017/FOMs/SISO_SpaceFOM_environment.xml"/>
+		<fom uri="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2017/FOMs/SISO_SpaceFOM_entity.xml"/>
+        <fom uri="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2017/FOMs/SISO_SpaceFOM_management.xml"/>
+        <fom uri="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2017/FOMs/SISO_SpaceFOM_switches.xml"/>
+	</foms>
+	<convert>
+		<object name="LunarRover" convertPos="true" convertRot="false"/>
+		<object name="Bas0.Base" convertPos="true" convertRot="false"/>
+	</convert>
+</config>

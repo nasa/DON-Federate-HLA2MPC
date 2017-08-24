@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MPCNetworkSimServer"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MPCTelemetryWriter"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Common"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2016/base/federates/Environment/jat/lib/jatcore.jar"/>
+	<classpathentry kind="lib" path="/Users/jbyon/Documents/SISO_Simulation_Smackdown/trunk/2016/base/federates/Environment/jat/lib/jatcoreNOSA.jar"/>
+	<classpathentry kind="lib" path="/Users/jbyon/Documents/prti1516e/lib/prti.jar"/>
+	<classpathentry kind="lib" path="/Users/jbyon/Documents/prti1516e/lib/prti1516e.jar"/>
+	<classpathentry kind="lib" path="/SEE2017Environment/lib/space-0.0.1.jar"/>
+	<classpathentry kind="src" path="/SEE2017Environment"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
