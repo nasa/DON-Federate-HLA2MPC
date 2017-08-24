@@ -1,1 +1,3 @@
 # DON-Federate-HLA2MPC
+
+Distributed Observer Network 3 (DON3) combines NASA simulation technologies, NASA information technologies and commercial video game technology to provide a free immersive viewer for complex simulation information.  A key component is a standardized interface for simulation related information that is coupled with custom software integrated into the game environment.  The DON Federate is an HLA / IEEE 1516 federate that subscribes to simulation state information, formats that data to comply with the Model Process Control specification and then sends the information to DON clients for display.
